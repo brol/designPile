@@ -1,0 +1,14 @@
+v1.5 - 07-03-2015 - Pierre Van Glabeke
+* modif setting
+* modif html
+* modif css
+
+v1.4 - 31-01-2015 - Pierre Van Glabeke
+* modif configurateur : pb avec les settings
+* modif localisation
+* html5 calé sur blowup dc2.7.3
+* valide w3c
+* adaptation css
+* la sidebar extra est à droite, custom dans le footer
+* refonte home.html (suppression de home-page1.html)
+* dc2.7 requis

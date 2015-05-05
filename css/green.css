@@ -1,0 +1,43 @@
+/*
+# -- BEGIN LICENSE BLOCK ----------------------------------
+# This file is part of designPile, a theme for Dotclear.
+#
+# Original Wordpress Theme from Site5
+# http://www.site5.com/wordpress-themes/
+#
+# Copyright (c) 2010
+# annso contact@as-i-am.fr
+#
+# Licensed under the GPL version 2.0 license.
+# A copy of this license is available in LICENSE file or at
+# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+# -- END LICENSE BLOCK ------------------------------------ */
+
+a { color: #99CC30; }
+.post ul, #comments ul { list-style-image:url(../img/green/bullet_star.png); }
+
+#logo { background:url(../img/green/logo.png) no-repeat; }
+#logo h1 a { color:#99CC30; }
+
+h2 a, .dc-home .first h2 a { border-bottom:1px dotted #99CC30; }
+
+.dc-home .first .label { background:url(../img/green/bullet_star.png) 0 50% no-repeat; }
+
+.dc-home .first .post-title { color: #99CC30; }
+.home-post h2 a:hover { color:#99CC30; }
+
+.date .month { color:#FF6600; }
+
+#sidebar h2 { background:url(../img/green/bk_h2_right.png) 0 0 no-repeat; }
+#sidebar li { background:url(../img/green/bullet_star.png) 0 11px no-repeat; }
+#sidebar .categories li.category-current a { color:#99CC30;}
+
+#search input[type=submit] { background:url(../img/green/but_search.png) 0 90% no-repeat; }
+
+#comment-form input[type=submit], #comment-form input[type=reset] { background: #99CC30;}
+
+#footer h2 { background:url(../img/green/bullet_h2_footer.png) 0 50% no-repeat; }
+#footer li { background:url(../img/green/bullet_arrow.png) 0 11px no-repeat; }
+#footer li a:hover { color:#99CC30; }
+
+#content-info h2 { background:url(../img/green/bullet_star.png) 0 50% no-repeat; }
