@@ -25,6 +25,10 @@ $social_links = array('', '', '/feed/atom');
 
 # Settings
 $my_color = $core->blog->settings->themes->designPileColor;
+$serialized_social_links = $core->blog->settings->themes->designPileSocialLinks;
+if (!empty($serialized_social_links)) {
+    $social_links = explode($separator, unserialize($serialized_social_links));
+}
 
 # Color scheme
 $designPileColor_combo = array(
