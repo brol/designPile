@@ -20,9 +20,7 @@
 		<!-- # Entry with an excerpt -->
 		<tpl:EntryIf extended="1">
 		  <div class="post-content">{{tpl:EntryExcerpt}}</div>
-		  <p class="read-it"><a href="{{tpl:EntryURL}}"
-		  title="{{tpl:lang Continue reading}} {{tpl:EntryTitle encode_html="1"}}">{{tpl:lang Continue
-		  reading}}</a>...</p>
+		  <p class="read-it"><a class="read-next" href="{{tpl:EntryURL}}" title="{{tpl:lang Continue reading}} {{tpl:EntryTitle encode_html="1"}}">[...]</a></p>
 		</tpl:EntryIf>
 
 		<!-- # Entry without excerpt -->

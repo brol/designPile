@@ -38,7 +38,6 @@ $designPileColor_combo = array(
 );
 
 // POST ACTIONS
-
 if (!empty($_POST))
 {
 	try
@@ -82,9 +81,6 @@ if (!empty($_POST))
 }
 
 // Choix de la couleur
-
-
-# Color scheme
 echo
 '<div class="fieldset"><h4>'.__('Color').'</h4>'.
 '<p class="field"><label>'.__('Color display:').'</label>'.

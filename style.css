@@ -24,7 +24,6 @@ body {
 }
 
 h1 {
-	color:#FFFFFF;
 	font-family:arial;
 	font-size:30px;
 	font-style:normal;
@@ -187,6 +186,7 @@ code, pre {
   float:left;
 	background:#fff;
 }
+#breadcrumb {margin:1em 0 0;padding:0 0 0 22px;}
 #content {
 	width:632px;
 	min-height:500px;
@@ -276,6 +276,11 @@ code, pre {
 	display: block;
 	font-size:14px;
 	font-weight:bold;
+}
+.date .year {
+	display: block;
+	font-size:13px;
+	line-height:0.5em;
 }
 
 .dc-home .home-post {
@@ -439,7 +444,7 @@ code, pre {
 .post img,
 .dc-category #content-info p img {max-width:100%;}
 
-#blognav div {
+#blognav div, #blogextra div {
 	margin:15px 0;
 	padding-top:8px;
 	border:1px solid #434343;
@@ -482,13 +487,17 @@ code, pre {
 	color:#888;
 	text-decoration:none;
 }
-#sidebar li a:hover { color:#d1d1d1; }
+#sidebar li a:hover { color:#d1d1d1 !important; }
 
+#sidebar .categories ul {padding: 0 10px 0;}
+#sidebar .categories li {padding: 8px 6px 0 18px;border:none;}
+#sidebar .categories li li {padding: 8px 6px 0 18px;}
 #sidebar .categories li.category-current a {
 	font-weight: bold;
 }
 #sidebar .categories li.category-current li a {
 	font-weight: normal;
+	color:#888;
 }
 
 
@@ -530,6 +539,7 @@ code, pre {
 	float:left;
 	background: none;
 	border:0;
+	padding:8px 3px;
 }
 #sidebar .tags p {
 	clear:both;
