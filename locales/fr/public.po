@@ -1,20 +1,24 @@
+# Language: Français
+# Module: designPile - 1.8
+# Date: 2017-11-03 00:08:46
+# Translated with translater 2017.05.10
+
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: designPile 1.8\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: brol <contact@brol.info>\n"
+"PO-Revision-Date: 2017-11-03T00:08:46+00:00\n"
+"Last-Translator: brol\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: tpl/_footer.html:12
 msgid "Designed by"
 msgstr "Designé par"
 
 msgid "%s comment"
 msgstr "%s commentaire"
 
-msgid "Tags:"
-msgstr "Mots-clés :"
